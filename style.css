@@ -8,7 +8,7 @@ h1{
 h2{
     font-size: 40px;
 }
-h3{
+h4{
     text-align: center;
 }
 .pink-highlight{
@@ -30,7 +30,8 @@ p{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    border-image-slice: 1;
+    background-size: inherit;
+    
 }
 section{
     height: 500px;
@@ -46,8 +47,53 @@ section{
 .biography{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
-    bac
+    background-position: left;
+    background-size: initial;
+   
+  
 }
-
+.container{
+    text-align: center;
+    display: inline-block;
+    margin: 50px auto;
+    margin-left: 60px;
+    margin-right: -4px auto;
+    padding: 50px;
+    ;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    
+}
+#client{
+    text-align: center;
+    color: black;
+}
+#client-info{
+    text-align: center;
+}
+.client-comment{
+    text-align: center;
+}
+.email-message{
+    text-align: center;
+    color: white;
+   background-color: deeppink;
+   padding: 30px;
+   margin-left: 500px;
+   margin-right: 500px;
+   box-shadow: 10px 10px 40px; 
+   border-radius: 10px;  
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+     background-repeat: no-repeat;
+     background-position: left; 
+     background-size: auto; 
+}
+#copyright-sign{
+    text-align: center;
+    font-size: 12px;
+}
 
