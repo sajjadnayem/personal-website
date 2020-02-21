@@ -29,9 +29,7 @@ p{
 .header{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: inherit;
-    
+    background-position: left;  
 }
 section{
     height: 500px;
@@ -48,9 +46,6 @@ section{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: initial;
-   
-  
 }
 .container{
     text-align: center;
@@ -59,11 +54,12 @@ section{
     margin-left: 60px;
     margin-right: -4px auto;
     padding: 50px;
-    ;
+    
 }
 .latest-work{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
+    background-position: initial;
     
 }
 #client{
@@ -84,13 +80,14 @@ section{
    margin-left: 500px;
    margin-right: 500px;
    box-shadow: 10px 10px 40px; 
-   border-radius: 10px;  
+   border-radius: 10px;
 }
 .footer{
     background-image: url("images/footer-bg.png");
      background-repeat: no-repeat;
-     background-position: left; 
+     background-position: center; 
      background-size: auto; 
+     
 }
 #copyright-sign{
     text-align: center;
